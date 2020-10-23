@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Магазин - Nerds</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container">
+            <nav class="main-nav">
+                <div class="logo"><a href="index.html"><img src="img/nerds-logo.svg"></a>
+                </div>
+                <div class="nav-point"><a href="#">Студия</a></div>
+                <div class="nav-point"><a href="#">Клиенты</a></div>
+                <div class="nav-point active"><a href="catalog.html">Магазин</a></div>
+                <div class="nav-point"><a href="#">Контакты</a></div>
+                <div class="user-basket"><a href="#"><span>Корзина</span></a></div>
+            </nav>
+            <h1 class="table-content">Магазин готовых шаблонов</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container catalog">
+            <div class="filters">
+                <form class="catalog-filter-form" action="#" method="post">
+                    <div class="price-range">
+                        <p class="">Стоимость:</p>
+                        <div class="price-range-controls">
+                            <div class="scale">
+                                <div class="bar"></div>
+                            </div>
+                            <div class="toggle min-toggle"></div>
+                            <div class="toggle max-toggle"></div>
+                        </div>
+                        <div class="price-controls">
+                            <label class="min-price-wrapper">От <input class="min-price" type="number" name="min-price"
+                                    value="0" placeholder="0"></label>
+                            <label class="max-price-wrapper">До <input class="max-price" type="number" name="max-price"
+                                    value="15000" placeholder="0"></label>
+                        </div>
+                    </div>
+                    <div class="grid-select">
+                        <p class="">Сетка:</p>
+                        <input class="grid-input" id="adaptive" type="radio" name="grid-select" value="adaptive"
+                            checked>
+
+                        <label for="adaptive">
+                            Адаптивная
+                        </label>
+                        <input class="grid-input" id="fixed" type="radio" name="grid-select" value="fixed">
+                        <label for="fixed">
+                            Фиксированная
+                        </label>
+                        <input class="grid-input" id="rubber" type="radio" name="grid-select" value="rubber">
+                        <label for="rubber">
+                            Резиновая
+                        </label>
+                    </div>
+                </form>
+            </div>
+            <div class="templates">
+
+            </div>
+        </div>
+        <div class="container-map">
+            <div class="map">
+                <img src="img/map.png">
+            </div>
+            <div class="container">
+                <div class="cont">
+
+                    <h3>NЁRDS DESIGN STUDIO</h3>
+                    <p>191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8</p>
+                    <p>тел. +7 (812) 275 75-75</p>
+                    <button type="submit" class="btn btn-map">Напишите нам</button>
+
+                </div>
+
+            </div>
+            <div class="marker"><img src="img/map-marker.png"></div>
+        </div>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <div class="container">
+            <div>
+                <a class="icon" href="#">
+                    <div class="icon"><img src="img/vk-icon.png"></div>
+                </a>
+                <a href="#">
+                    <div class="icon"><img src="img/fb-icon.png"></div>
+                </a>
+                <a href="#">
+                    <div class="icon"><img src="img/insta-icon.png"></div>
+            </div></a>
+            <div>
+                <h2>Давайте дружить, это выгодно!</h2>
+                <p>Скидка 10% для друзей из социальных сетей.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
