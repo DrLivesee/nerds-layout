@@ -209,7 +209,6 @@ a {
     border-radius: 50%;
     background-color: #ccc;
     cursor: pointer;
-    transition: all 0.15s ease-in-out;
     position: relative;
 }
 
@@ -223,7 +222,6 @@ a {
     position: absolute;
     left: 5px;
     top: 5px;
-
 }
 
 .nav .phones li:hover::after {
@@ -236,7 +234,6 @@ a {
     position: absolute;
     left: 5px;
     top: 5px;
-
 }
 
 

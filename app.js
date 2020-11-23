@@ -16,6 +16,6 @@ dotNodes.forEach(function (dot, i) {
             imageNode.src = images[i]
             currentImage = i
             imageNode.classList.remove('transparent')
-        }, 150)
+        })
     })
 })
