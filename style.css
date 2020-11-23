@@ -171,10 +171,74 @@ a {
 }
 
 .nav .phones {
+    width: 698px;
     margin-top: auto;
     margin-left: auto;
     margin-right: 30px;
+    position: relative;
 }
+
+.nav .phones img {
+    display: block;
+    margin-right: auto;
+    opacity: 1;
+    transition: all 0.15s ease-in-out;
+    max-height: 413px;
+}
+
+.nav .phones img .transparent {
+    opacity: 0;
+}
+
+.nav .phones ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    top: 320px;
+    left: 100px;
+}
+
+.nav .phones li {
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background-color: #ccc;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+    position: relative;
+}
+
+.nav .phones li.active-point::after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: 3px solid rgb(68, 68, 68);
+    position: absolute;
+    left: 5px;
+    top: 5px;
+
+}
+
+.nav .phones li:hover::after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: 3px solid rgb(68, 68, 68);
+    position: absolute;
+    left: 5px;
+    top: 5px;
+
+}
+
 
 .btn {
     display: inline-block;
